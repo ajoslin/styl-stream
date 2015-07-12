@@ -1,0 +1,35 @@
+{
+  "name": "styl-stream",
+  "main": "index.js",
+  "version": "0.0.1",
+  "description": "styl as a stream (for browserify or other uses)",
+  "license": "MIT",
+  "repository": "ajoslin/styl-stream",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "styl stream browserify transform"
+  ],
+  "dependencies": {
+    "readable-stream": "~2.0.1",
+    "styl": "^0.2.9",
+    "transformify": "~0.1.2"
+  },
+  "devDependencies": {
+    "apply-transform": "^0.1.4",
+    "standard": "^4.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
